@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  
+  <title>Portfolio Paweł Kopycki</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__logo"><img src="img/udacity.svg" alt="logo"></div>
+    <div class="header__intro">
+      <h1>PAWEŁ KOPYCKI</h1>
+      <h3>FRONT-END DEVELOPER</h3>
+    </div>
+    <div class="header__line"></div>
+  </header>
+  <a id="menu" class="burger__menu">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+      </svg>
+    </a>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item"><a href="#">Home</a></li>
+      <li class="nav__item"><a href="#">Events</a></li>
+      <li class="nav__item"><a href="#">Projects</a></li>
+      <li class="nav__item"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="content">
+      <section class="main__image">
+        <div class="background"></div>
+        <article class="description">
+          <h2>Hello, I'm Paweł!</h2>
+          <h2>I make <em>websites</em>.</h2>
+        </article>
+      </section>
+      <section class="work">
+        <h4>Featured Work</h4>
+      </section>
+      <section class="small__image" id="left">
+        <picture>
+          <source media="(max-width: 400px)" srcset="http://via.placeholder.com/390x220">
+          <source media="(max-width: 450px)" srcset="http://via.placeholder.com/450x220">
+          <source media="(max-width: 565px)" srcset="http://via.placeholder.com/560x220">
+          <source media="(max-width: 640px)" srcset="http://via.placeholder.com/300x210">
+          <source media="(max-width: 700px)" srcset="http://via.placeholder.com/390x250">
+          <img src="http://via.placeholder.com/300x200" alt="">
+        </picture>
+        
+        <h1><a href="http://animals.pkopy.pl" target="_blank">WIDGETS</a></h1>
+      </section>
+      <section class="small__image" id="center">
+        <picture>
+          <source media="(max-width: 400px)" srcset="img/animals__390x220.png">
+          <source media="(max-width: 450px)" srcset="img/animals__450x220.png">
+          <source media="(max-width: 565px)" srcset="img/animals__560x220.png">
+          <source media="(max-width: 700px)" srcset="img/animals__700x250.png">
+          <img src="img/animals__300x200.png" alt="animals">
+        </picture>
+        <h1><a href="http://animals.pkopy.pl" target="_blank">ANIMALS</a></h1>
+        
+      </section>
+      <section class="small__image" id="right">
+        <picture>
+          <source media="(max-width: 400px)" srcset="img/sunflower__390x250.png">
+          <source media="(max-width: 450px)" srcset="img/sunflower__450x220.png">
+          <source media="(max-width: 565px)" srcset="img/sunflower__560x220.png">
+          <source media="(max-width: 640px)" srcset="img/sunflower__300x210.png">
+          <source media="(max-width: 700px)" srcset="img/sunflower__390x250.png">
+          <img src="img/sunflower__300x200.png" alt="sunflower">
+        </picture>
+        <h1><a href="#">SUNFLOWER</a></h1>
+      </section>
+    </section>
+    <footer>
+    
+    </footer>
+  </main>
+  <script src="js/menu.js"></script>
+</body>
+</html>

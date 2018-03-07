@@ -1,0 +1,140 @@
+@media screen and (max-width: 430px){
+  .header__intro{
+    font-size:  .8em;
+  }
+}
+
+@media screen and (max-width: 565px){
+  .nav{
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    /* height: 100%; */
+    position: absolute;
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    transition: transform 0.3s ease;
+    
+  }
+  .nav__item{
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    text-align: left;
+  }
+  .nav.open{
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  .burger__menu{
+    display: inline-block;
+    padding: 1em;
+  }
+  .burger__menu svg {
+    width: 48px;
+    fill: #E0E0E0;
+  }
+  .main__image{
+    margin: 0.3em;
+    background-image: url();
+    background-color: rgb(250, 250, 250);
+    height: 150px;
+  }
+  .small__image{
+    width: 100%;
+  }
+  
+  #center, #left, #right{
+    margin: 1%;
+  }
+  .description{
+    margin:auto;
+    top: 14%;
+    font-size: 1.7em;
+    text-align: center;
+    left: 0;
+  }
+  .description em{
+    font-weight: 700;
+  }
+  .work{
+    text-align: center;
+  }
+  #left h1, #right h1{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    font-weight: 700;
+  }
+  #center h1{
+    position: absolute;
+    top: 40%;
+    left: -55%;
+    font-weight: 700;
+  }
+  #center a{
+    color: aliceblue;
+    padding: 2.5em 2.5em 2.5em 10em;
+  }
+  #right a{
+    color: aliceblue;
+    padding: 2.5em 2.5em 2.5em 1em;
+  }
+  #left a{
+    color: rgb(23, 138, 240);
+    padding: 2.5em 2.5em 2.5em 1em;
+  }
+}
+
+@media screen and (min-width: 566px) and (max-width: 700px){
+  #left, #right{
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #center{
+    width: 98%;
+    order: 4;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description{
+  font-size: 2em;
+  color: grey;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+#center h1{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-weight: 700;
+}
+#left h1, #right h1{
+  position: absolute;
+  top: 40%;
+  left: 0;
+  font-weight: 700;
+}
+#center a{
+  color: aliceblue;
+  padding: 2.5em 2.5em 2.5em 10em;
+}
+#right a{
+  color: aliceblue;
+  padding: 2.5em 2.5em 2.5em 1em;
+}
+#left a{
+  color: rgb(23, 138, 240);
+  padding: 2.5em 2.5em 2.5em 1em;
+}
+}
+@media screen and (min-width: 900px){
+  .header, .nav, .content, main{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
